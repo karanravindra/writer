@@ -7,6 +7,8 @@ from lightning import LightningModule
 from src import Decoder
 
 class RF:
+    """https://github.com/cloneofsimo/minRF
+    """
     def __init__(self, model, ln=False):
         self.model = model
         self.ln = ln
